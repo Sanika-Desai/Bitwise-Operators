@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+main()
+{
+int i = 67;
+    int r,l;
+    cout<<"l="<<(i<<3)<<endl;
+    cout<<"r="<<(i>>4)<<endl;
+
+}
+/*
+OUTPUT
+l=536
+r=4*/
+
+
+
+
