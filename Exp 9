@@ -1,0 +1,23 @@
+/*
+Name-Sanika Desai
+PRN-22070123098
+*/
+#include<iostream>
+using namespace std;
+int main()
+{
+    int given, set,reset,set_ans,reset_ans;
+    given = 35;
+    set = 16;
+    reset = 31;
+    set_ans = given | set;
+    reset_ans = reset & given;
+    cout<<"set:"<<set_ans<<endl;
+    cout<<"reset:"<<reset_ans<<endl;
+
+    /*
+    OUTPUT
+    set:51
+    reset:3
+    */
+
