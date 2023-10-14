@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+
+main()
+{
+int bit_to_be_set,bit_to_be_reset,a1,a2;
+    int a = 50;
+    cout<<"Enter the bit to be reset:"<<endl;
+    cin>>bit_to_be_reset;
+    cout<<"Enter the bit to be set:"<<endl;
+    cin>>bit_to_be_set;
+    a1 = a|(1<<bit_to_be_reset);
+    a2 = a|(1<<bit_to_be_set);
+    cout<<a1<<endl;
+    cout<<a2<<endl;
+    return 0;
+}
+
+/*OUTPUT
+Enter the bit to be reset:
+1
+Enter the bit to be set:
+6
+50
+114*/
